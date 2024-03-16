@@ -1,0 +1,26 @@
+.SideMenu{
+    z-index: 9999;
+    height: 100vh;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    gap: 20px;
+    font-size: 18px;
+    top: 0;
+    right: 0;
+    position: fixed;
+    background-color: white;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    a:hover{
+            text-decoration: underline;
+    }
+    .Logo{
+        width: 120px;
+        // height: 100px;
+        
+    }
+}

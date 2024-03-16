@@ -1,3 +1,26 @@
-body{
-    background-color: red;
+header{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 27px 5% ;
+    border: 1px solid #f2f2f2;
+    nav{
+        display: flex;
+        gap: 2rem;
+        a{
+            font-weight: 400;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: rgb(10, 10, 10);
+            letter-spacing: 1px;
+            
+        }
+    }
+    .icon{
+        height: 2rem;
+        width: 2rem;
+        
+    }
 }

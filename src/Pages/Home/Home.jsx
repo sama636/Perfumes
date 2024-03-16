@@ -1,8 +1,10 @@
-import React from 'react'
-import MainHeader from '../../Components/MainHeader/MainHeader'
+import React from "react";
+import Welcome from "../../Components/Welcome/Welcome";
 
 export default function Home() {
   return (
-    <MainHeader/>
-  )
+    <>
+      <Welcome />
+    </>
+  );
 }
